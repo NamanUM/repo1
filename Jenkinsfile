@@ -35,7 +35,7 @@ pipeline {
     }
     post {
         always {
-            echo "Pipeline execution $$"
+            echo "Pipeline execution \$\$"
         }
     }
 }
